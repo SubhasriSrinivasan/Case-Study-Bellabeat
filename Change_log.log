@@ -1,0 +1,26 @@
+2021-06-05 06:52:08,879 - Sree - DEBUG - Debug Message Check
+2021-06-05 06:52:08,879 - Sree - INFO - Info Message Check
+2021-06-05 06:52:08,880 - Sree - WARNING - Warning Check
+2021-06-05 06:52:08,880 - Sree - ERROR - Error Occured Check
+2021-06-05 06:52:08,880 - Sree - CRITICAL - Critical Error Check
+2021-06-05 06:59:43,280 - Sree - INFO - The dailyActivity_merged.csv is named as activity 
+2021-06-05 06:59:43,281 - Sree - INFO - The sleepDay_merged.csv is named as sleep 
+2021-06-05 06:59:43,281 - Sree - INFO - The weightLogInfo_merged is named as weight 
+2021-06-05 07:04:38,170 - Sree - INFO - A variable activity_missing_values was created which contains information about the missing values in the dataframe activity 
+2021-06-05 07:07:15,836 - Sree - INFO - A variable sleep_missing_values was created which contains information about the missing values in the dataframe sleep 
+2021-06-05 07:13:46,059 - Sree - INFO - A variable weight_missing_values was created which contains information about the missing values in the dataframe weight 
+2021-06-05 07:17:44,349 - Sree - INFO - From the dataframe weight, the column Fat is dropped out as out of 67 entries 65 were missing hence there was nothing much that we could do 
+2021-06-05 07:18:19,829 - Sree - WARNING - This has 33 unique ids but expected was 30
+2021-06-05 07:21:46,709 - Sree - INFO - The Datatype of ActivityDate from the dataframe activity is changed to datetime64
+2021-06-05 07:21:58,580 - Sree - INFO - A new column DayOfTheWeek is created
+2021-06-05 07:22:39,646 - Sree - INFO - A new column total_mins is created in the dataframe activity denoting the total minutes of activity
+2021-06-05 07:23:13,353 - Sree - INFO - Total activity hours column created in the dataframe activity
+2021-06-05 07:24:23,077 - Sree - INFO - The column total_mins from the df activity is deleted as we have it in hours now
+2021-06-05 07:31:57,138 - Sree - INFO - I am not changing the data type of SleepDay to correct format as it is not going to be used for this analysis
+2021-06-05 07:33:33,106 - Sree - INFO - I am not changing the data type of Date in the df weight to correct format as it is not used for this analysis
+2021-06-05 07:40:05,635 - Sree - INFO - Variables Total_sleep_hrs,  Total_bed_hrs, time_wasted_in_bed ie. without sleeping is created
+2021-06-05 07:41:27,248 - Sree - INFO - Variables TotalMinutesAsleep and TotalTimeInBed are deleted
+2021-06-05 07:56:23,943 - Sree - INFO - A variable cat is created in df weight which denotes if a person has correct weight or not
+2021-06-05 08:00:42,540 - Sree - INFO - created a new df named inner_join_activity 
+2021-06-05 08:12:15,403 - Sree - INFO - inner join sleep df created 
+2021-06-05 08:17:29,910 - Sree - INFO - All the 3 datasets merged into inner_join_activity now
